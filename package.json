@@ -1,6 +1,6 @@
 {
   "name": "thimble.mozilla.org",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "private": true,
   "description": "Online code editor geared to people teaching and learning HTML, CSS, and JavaScript",
   "main": "app.js",
