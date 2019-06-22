@@ -35,7 +35,7 @@
     "pass-test": "1.0.2",
     "proquint": "0.0.1",
     "redis": "0.12.1",
-    "sequelize": "1.7.10",
+    "sequelize": "5.8.11",
     "webmaker-auth": "1.0.4",
     "webmaker-download-locales": "0.2.5",
     "webmaker-i18n": "0.3.19",
