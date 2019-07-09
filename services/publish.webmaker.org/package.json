@@ -11,7 +11,9 @@
     "seed": "knex seed:run",
     "pretest": "npm run knex && npm run lint",
     "test": "lab -t 80 -c --verbose --colors --assert code --timeout 5000",
-    "lint": "eslint adaptors api lib server.js"
+    "lint": "eslint adaptors api lib server.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -46,7 +48,8 @@
     "pg-query-stream": "^0.7.0",
     "request": "^2.58.0",
     "sqlite3": "^3.1.0",
-    "tar-stream": "^1.2.1"
+    "tar-stream": "^1.2.1",
+    "snyk": "^1.192.4"
   },
   "devDependencies": {
     "code": "^1.4.0",
@@ -58,5 +61,6 @@
     "mofo-style": "^2.4.0",
     "mox-server": "^0.2.0",
     "pg": "^4.5.5"
-  }
+  },
+  "snyk": true
 }
