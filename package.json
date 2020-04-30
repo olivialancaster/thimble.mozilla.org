@@ -87,7 +87,8 @@
     "uuid": "2.0.3",
     "webmaker-i18n": "^0.3.32",
     "webpack": "^3.2.0",
-    "wolfy87-eventemitter": "^5.1.0"
+    "wolfy87-eventemitter": "^5.1.0",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "eslint": "^4.6.1",
@@ -111,6 +112,9 @@
     "test:eslint": "eslint .",
     "test:stylelint": "stylelint \"public/**/*.less\"",
     "test:lint:fix": "run-s \"test:* -- --fix\"",
-    "test": "run-s test:*"
-  }
+    "test": "run-s test:*",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
