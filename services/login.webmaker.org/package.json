@@ -31,7 +31,7 @@
     "mysql": "2.0.1",
     "newrelic": "^1.21.1",
     "node-statsd": "0.0.7",
-    "nunjucks": "0.1.10",
+    "nunjucks": "3.2.3",
     "pass-test": "1.0.2",
     "proquint": "0.0.1",
     "redis": "0.12.1",
