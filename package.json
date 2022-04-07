@@ -40,7 +40,7 @@
     "Edge >= 12"
   ],
   "dependencies": {
-    "async": "0.2.7",
+    "async": "3.2.2",
     "autoprefixer": "^7.1.2",
     "aws-sdk": "^2.23.0",
     "babel-core": "^6.26.0",
@@ -61,7 +61,7 @@
     "csurf": "^1.9.0",
     "express": "^4.15.2",
     "extract-text-webpack-plugin": "^3.0.0",
-    "form-data": "^0.2.0",
+    "form-data": "^2.0.0",
     "habitat": "3.1.2",
     "helmet": "^3.5.0",
     "jquery": "^3.2.1",
@@ -86,7 +86,7 @@
     "throng": "^4.0.0",
     "uuid": "2.0.3",
     "webmaker-i18n": "^0.3.32",
-    "webpack": "^3.2.0",
+    "webpack": "^4.0.0",
     "wolfy87-eventemitter": "^5.1.0"
   },
   "devDependencies": {
