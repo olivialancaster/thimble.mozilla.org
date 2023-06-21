@@ -86,7 +86,7 @@
     "throng": "^4.0.0",
     "uuid": "2.0.3",
     "webmaker-i18n": "^0.3.32",
-    "webpack": "^3.2.0",
+    "webpack": "^4.0.0",
     "wolfy87-eventemitter": "^5.1.0"
   },
   "devDependencies": {
