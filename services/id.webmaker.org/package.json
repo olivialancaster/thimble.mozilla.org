@@ -44,7 +44,7 @@
   "homepage": "https://github.com/mozilla/id.webmaker.org",
   "dependencies": {
     "autoless": "0.1.7",
-    "babel-loader": "5.0.0",
+    "babel-loader": "6.0.0",
     "blankie": "1.1.0",
     "boom": "2.6.1",
     "bootstrap": "3.3.4",
@@ -68,7 +68,7 @@
     "isomorphic-fetch": "2.0.1",
     "joi": "6.0.8",
     "jsx-loader": "0.12.2",
-    "less": "1.7.5",
+    "less": "2.7.0",
     "newrelic": "1.20.1",
     "pass-test": "1.0.3",
     "pg": "4.3.0",
@@ -81,7 +81,7 @@
     "redis-url": "1.2.1",
     "scooter": "2.0.1",
     "should": "5.2.0",
-    "webpack": "1.7.3"
+    "webpack": "2.2.0"
   },
   "devDependencies": {
     "bulk-require": "0.2.1",
@@ -91,7 +91,7 @@
     "jshint": "2.6.3",
     "json-loader": "0.5.1",
     "lab": "5.5.0",
-    "less": "2.4.0",
+    "less": "2.7.0",
     "mocha": "2.2.1",
     "mocha-phantomjs": "3.6.0",
     "mofo-style": "1.1.0",
